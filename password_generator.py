@@ -1,58 +1,4 @@
 
-
-### 📝 `README.md`
-
-````markdown
-# 🔐 Password Generator
-
-This project is a simple and customizable Password Generator written in Python.
-
-## 📦 Features
-
-- Adjustable password length
-- Option to include digits
-- Option to include special characters
-- Simple terminal interface
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/password-generator.git
-cd password-generator
-````
-
-### 2. Run the password generator
-
-```bash
-python password_generator.py
-```
-
-## 🧪 Example
-
-```
-Enter password length (e.g., 12): 16
-Include digits? (y/n): y
-Include special characters? (y/n): y
-✅ Generated Password: 9x@T#hMe&Z1uQ*wL
-```
-
-## 📋 Requirements
-
-* Python 3.x
-
-## 📃 License
-
-MIT License
-
-````
-
----
-
-### 🔐 `password_generator.py`
-
-```python
 import random
 import string
 
@@ -80,4 +26,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-````
